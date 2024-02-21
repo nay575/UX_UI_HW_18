@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+}
+
+/* Navigation Styles */
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; /* Center align the content */
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+    margin-right: 0;
+}
+
+/* Hero Image Section Styles */
+.heroImg {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.heroImg p {
+    font-size: 1.2em;
+}
+
+.heroImg button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.heroImg button:hover {
+    background-color: #555;
+}
+
+/* My Skills Section Styles */
+.mySkills {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexChild {
+    width: calc(33% - 20px); /* Adjusted for margins */
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background */
+    border: 2px solid #000080; /* Dark blue border */
+}
+
+/* My Work Section Styles */
+.myWork {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    grid-template-areas:
+        "project1 project2"
+        "project3 project4";
+}
+
+.workItem:nth-child(1) {
+    grid-area: project1;
+}
+
+.workI
